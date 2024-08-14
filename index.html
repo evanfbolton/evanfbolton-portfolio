@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Evan Bolton</title>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://kit.fontawesome.com/b3bdb49580.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
 <!--HERO SECTION START-->
 <section class="flex flex-col justify-center bg-center bg-no-repeat bg-[url('./images/colorful.jpg')] bg-gray-700 bg-blend-overlay h-screen">
     <div class="px-8 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1 class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-white md:text-6xl lg:text-8xl">Hey. I'm Evan.</h1>
+        <h1 class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-[#FFF982] md:text-6xl lg:text-8xl">Hey. I'm Evan.</h1>
         <p class="hidden md:block mb-8 text-xl font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Associate Fullstack Dev | Game Enthusiast | Voracious Book Worm</p>
         <p class="md:hidden mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">| Associate Fullstack Dev |<br>| Game Enthusiast |<br>| Voracious Book Worm |</p>
         <p class="mb-8 text-2xl sm:text-4xl font-normal text-gray-300">Crafting digital experiences, fueled by passion and curiosity</p>
-        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-            <a href="#portfolio" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white border-2 bg-[#7F0116] hover:bg-[#610117]">
+        <div class="flex flex-col space-y-4 sm:flex-row items-center sm:justify-center sm:space-y-0">
+            <a href="#portfolio" class="inline-flex justify-center items-center w-56 py-3 px-5 text-base font-medium text-center text-[#82DAFF] hover:text-[#015A80] border-2 border-[#82DAFF] hover:border-[#015A80] bg-[#7F0116] hover:bg-[#D44960]">
                 View my portfolio
                 <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -28,7 +30,7 @@
 
 
 <!--ABOUT ME SECTION START-->
-<section class="grid border border-gray-200 rounded-lg shadow-sm md:grid-cols-2 bg-white">
+<section id="about-me" class="grid border border-gray-200 rounded-lg shadow-sm md:grid-cols-2 bg-white">
     <div class="flex flex-col items-start justify-center px-8 md:px-16 py-16 text-left bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
         <div class="mx-[5%] mb-4 text-gray-500 text-center md:text-left">
             <h2 class="text-4xl font-semibold text-gray-900">About Me</h2>
@@ -62,7 +64,7 @@
 
 
 <!--PORTFOLIO SECTION START-->
-<section id="portfolio" class="relative w-full mt-16" data-carousel="static">
+<section id="portfolio" class="relative w-full pt-16" data-carousel="static">
     <!-- Carousel wrapper -->
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
         <!-- Item 1 -->
@@ -109,34 +111,47 @@
 
 
 <!--CONTACT FORM START-->
-<section class="grid mt-16 border border-gray-200 rounded-lg shadow-sm md:mb-12 md:grid-cols-3 bg-white">
+<section class="grid grid-cols-1 mt-16 border border-gray-200 rounded-lg shadow-sm md:mb-12 md:grid-cols-3 bg-white">
     <form class="flex flex-col col-span-2 justify-center px-8 md:px-16 py-16 md:ml-[5%] text-left bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
+        <h2 class="mb-6 text-4xl font-semibold text-gray-900">Contact Me</h2>
+        <p class="mb-6 w-full md:w-5/6">I'm open to inquiries for employment opportunities or contract work. If you'd rather connect with me through LinkedIn or e-mail, those links can be found to the right of this form. Looking forward to hearing from you!</p>
         <div class="grid gap-6 mb-6 md:grid-cols-2">
             <div class="md:w-2/3">
                 <label for="name" class="block mb-2 text-sm font-medium text-gray-900">Name</label>
-                <input type="text" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="John Doe" required />
+                <input type="text" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="John Doe" required />
             </div>
             <div class="md:w-2/3">
                 <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
-                <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="123-45-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+                <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="123-45-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
             </div>
             <div class="md:w-2/3">
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
-                <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="john.doe@company.com" required />
+                <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="john.doe@company.com" required />
             </div>
             <div class="md:w-2/3">
                 <label for="company" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Company</label>
-                <input type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Flowbite" required />
+                <input type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Flowbite" required />
             </div>
         </div>
         <div class="mb-6">
             <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
-            <textarea id="message" rows="4" class="block p-2.5 w-full md:w-2/3 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
+            <textarea id="message" rows="4" class="block p-2.5 w-full md:w-2/3 text-sm text-gray-900 bg-gray-50 border border-gray-300 focus:ring-blue-500 focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
         </div>
-        <button type="submit" class="w-24 text-white border-2 bg-[#7F0116] hover:bg-[#610117] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center">Submit</button>
+        <button type="submit" class="w-24 text-[#82DAFF] hover:text-[#015A80] bg-[#7F0116] hover:bg-[#D44960] border-2 border-[#82DAFF] hover:border-[#015A80] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center">Submit</button>
     </form>
-    <div class="p-8 text-left bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
-
+    <div class="px-8 md:px-16 py-16 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
+        <h2 class="mb-6 text-4xl font-semibold text-gray-900">Socials/E-mail</h2>
+        <div class="grid grid-cols-1 items-center gap-16">
+            <button class="md:w-60 w-72 lg:w-72 place-self-center text-[#82DAFF] hover:text-[#015A80] border-2 border-[#82DAFF] hover:border-[#015A80] bg-[#7F0116] hover:bg-[#D44960] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center">
+                <a href="https://www.linkedin.com/in/evanfbolton" target="_blank" class="text-4xl"><i class="devicon-linkedin-plain"></i> LinkedIn</a>
+            </button>
+            <button class="md:w-60 w-72 lg:w-72 place-self-center text-[#82DAFF] hover:text-[#015A80] border-2 border-[#82DAFF] hover:border-[#015A80] bg-[#7F0116] hover:bg-[#D44960] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center">
+                <a href="https://github.com/evanfbolton" target="_blank" class="text-4xl"><i class="devicon-github-original"></i> GitHub</a>
+            </button>
+            <button class="md:w-60 w-72 lg:w-72 place-self-center text-[#82DAFF] hover:text-[#015A80] border-2 border-[#82DAFF] hover:border-[#015A80] bg-[#7F0116] hover:bg-[#D44960] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center">
+                <a href="mailto:evan.f.bolton@gmail.com" class="text-4xl"><i class="fa-solid fa-envelope text-4xl"></i> E-mail</a>
+            </button>
+        </div>
     </div>
 </section>
 <!--CONTACT FORM END-->
