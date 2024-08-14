@@ -7,60 +7,167 @@
 </head>
 <body>
 
-<section id="hero-section" class="flex">
-    <div id="hero-photo" class="float-left">
-
-    </div>
-    <div id="tagline" class="">
-        <h1>Evan Bolton</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut consectetur consequatur deleniti dignissimos eligendi error id impedit nulla quod. Dignissimos, illum molestias nisi obcaecati praesentium tempora. Ex, illum quos.</p>
-        <button>My Portfolio</button>
-    </div>
-</section>
-
-<section id="about-and-skills" class="">
-    <div id="about-me" class="">
-
-    </div>
-    <div id="skills" class="">
-        <ul>
-            <li></li>
-        </ul>
+<!--HERO SECTION START-->
+<section class="flex flex-col justify-center bg-center bg-no-repeat bg-[url('./images/colorful.jpg')] bg-gray-700 bg-blend-overlay h-screen">
+    <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+        <h1 class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-white md:text-6xl lg:text-8xl">Hey. I'm Evan.</h1>
+        <p class="hidden md:block mb-8 text-xl font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Associate Fullstack Dev | Game Enthusiast | Voracious Book Worm</p>
+        <p class="md:hidden mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">| Associate Fullstack Dev |<br>| Game Enthusiast |<br>| Voracious Book Worm |</p>
+        <p class="mb-8 text-2xl sm:text-4xl font-normal text-gray-300">Crafting digital experiences, fueled by passion and curiosity</p>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+            <a href="#portfolio" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white border-2 bg-[#7F0116] hover:bg-[#610117]">
+                View my portfolio
+                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>
+        </div>
     </div>
 </section>
+<!--HERO SECTION END-->
 
-<section id="portfolio" class="">
-    <div id="project-1" class="">
 
-    </div>
-    <div id="project-2" class="">
+<!--ABOUT ME SECTION START-->
+<div class="grid mb-8 border border-gray-200 rounded-lg shadow-sm md:mb-12 md:grid-cols-2 bg-white">
+    <figure class="flex flex-col items-start justify-center p-8 text-left bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
+        <div class="max-w-2xl mx-[5%] mb-4 text-gray-500">
+            <h2 class="text-lg md:text-2xl font-semibold text-gray-900">About Me</h2>
+            <p class="my-4">I'm an aspiring full-stack developer with a love for creative storytelling and interactive experiences. When I'm not coding, you can find me immersed in the world of games or devouring sci-fi and fantasy novels. As a lifelong learner, I'm driven to merge my technical skills with my creative interests, crafting innovative solutions that bring people joy and excitement. On this website, I'm excited to share my projects, skills, and experiences as I journey towards becoming a skilled full-stack developer. I look forward to collaborating with like-minded individuals who share my passion for technology and creativity.</p>
+        </div>
+        <figcaption class="flex ml-[5%] items-center justify-center">
+            <img class="rounded-full w-20 h-20" src="./images/me.jpg" alt="profile picture">
+            <div class="space-y-0.5 font-medium text-left rtl:text-right ms-3">
+                <div>Evan Bolton</div>
+            </div>
+        </figcaption>
+    </figure>
+    <figure class="p-8 text-left bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
+        <h2 class="mx-[5%] text-lg md:text-2xl font-semibold text-gray-900">Skills</h2>
+        <div class="grid grid-cols-4 gap-y-4 mt-4 text-center justify-items-center">
+            <p class="h-20 w-20 grid justify-items-center"><img class="h-14 w-14"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
+                        HTML</p>
+            <p class="h-20 w-20 grid justify-items-center"><img class="h-14 w-14"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
+                        CSS</p>
+            <p class="h-20 w-20 grid justify-items-center"><img class="h-14 w-14"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
+                        JavaScript</p>
+            <p class="h-20 w-20 grid justify-items-center"><img class="h-14 w-14"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/>
+                        TypeScript</p>
+            <p class="h-20 w-20 grid justify-items-center"><img class="h-14 w-14"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"/>
+                        React</p>
+            <p class="h-20 w-20 grid justify-items-center"><img class="h-14 w-14"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"/>
+                        express</p>
+            <p class="h-20 w-20 grid justify-items-center"><img class="h-14 w-14"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"/>
+                        Next.js</p>
+            <p class="h-20 w-20 grid justify-items-center"><img class="h-14 w-14"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"/>
+                        GitHub</p>
+            <p class="h-20 w-20 grid justify-items-center"><img class="h-14 w-14"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"/>
+                        Tailwind</p>
+            <p class="h-20 w-20 grid justify-items-center"><img class="h-14 w-14"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"/>
+                        Python</p>
+            <p class="h-20 w-20 grid justify-items-center"><img class="h-14 w-14"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"/>
+                        C++</p>
+        </div>
+    </figure>
+</div>
+<!--ABOUT ME SECTION END-->
 
-    </div>
-    <div id="project-3" class="">
 
+<!--PORTFOLIO SECTION START-->
+<div id="portfolio" class="relative w-full" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+        <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+            <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
     </div>
-</section>
+    <div class="flex justify-center items-center pt-4">
+        <button type="button" class="flex justify-center items-center me-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
+                <svg class="rtl:rotate-180 w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/>
+                </svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        <button type="button" class="flex justify-center items-center h-full cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
+                <svg class="rtl:rotate-180 w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
+    </div>
+</div>
+<!--PORTFOLIO SECTION END-->
 
-<section id="contact-and-socials" class="">
-    <div id="contact-form" class="">
-        <form action="">
-            <ul>
-                <li>
-                    <label for=""></label>
-                    <input type="text" />
-                </li>
-                <li>
-                    <button type="submit"></button>
-                </li>
-            </ul>
-        </form>
-    </div>
-    <div id="socials" class="">
-        <button id="linked-in" class=""></button>
-        <button id="github" class=""></button>
-        <button id="e-mail" class=""></button>
-    </div>
-</section>
+
+<!--CONTACT FORM START-->
+<div>
+    <form>
+        <div class="grid gap-6 mb-6 md:grid-cols-2">
+            <div>
+                <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
+                <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required />
+            </div>
+            <div>
+                <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Last name</label>
+                <input type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Doe" required />
+            </div>
+            <div>
+                <label for="company" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Company</label>
+                <input type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Flowbite" required />
+            </div>
+            <div>
+                <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
+                <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+            </div>
+            <div>
+                <label for="website" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Website URL</label>
+                <input type="url" id="website" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="flowbite.com" required />
+            </div>
+            <div>
+                <label for="visitors" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Unique visitors (per month)</label>
+                <input type="number" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
+            </div>
+        </div>
+        <div class="mb-6">
+            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
+            <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required />
+        </div>
+        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+    </form>
+</div>
+<!--CONTACT FORM END-->
+
 
 <footer>
     <div>
@@ -68,5 +175,6 @@
     </div>
 </footer>
 
+<script type="module" src="/src/main.js"></script>
 </body>
 </html>
