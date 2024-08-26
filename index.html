@@ -35,7 +35,7 @@
         <div class="mx-[5%] mb-4 text-gray-500 text-center md:text-left">
             <h2 class="text-4xl font-semibold text-gray-900">About Me</h2>
             <div class="mt-4 flex items-center">
-                <img class="rounded-full w-20 h-20" src="public/images/me.jpg" alt="Picture of Evan Bolton">
+                <img class="rounded-full w-20 h-20" src="/images/me.jpg" alt="Picture of Evan Bolton">
                 <div class="space-y-0.5 font-medium text-left rtl:text-right ms-3">
                     <div>Evan Bolton</div>
                 </div>
@@ -64,54 +64,47 @@
 
 
 <!--PORTFOLIO SECTION START-->
-<section id="portfolio" class="relative w-full pt-16" data-carousel="static">
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-        <!-- Item 1 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-            <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+<section id="portfolio" class="mt-16 mx-[5%] px-8">
+    <h2 class="text-4xl font-semibold text-gray-900 mb-6">Portfolio</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
+        <div class="max-w-md bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700">
+            <img class="" src="/images/team-eats.jpg" alt="Screenshot of the words Team Eats in h1 tags"/>
+            <div class="p-5">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Team Eats</h5>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"><span class="font-bold">Skills:</span> HTML, TypeScript, Tailwind, React, PostgreSQL, Next.js, Express, SCRUM</p>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">This website is the capstone project for my Deep Dive Coding bootcamp. I'm working with 3 of my peers to build a fully functional web app. This app is meant to bring visibility to local New Mexico restaurants.</p>
+                <button class="w-32 text-[#82DAFF] hover:text-[#015A80] bg-[#7F0116] hover:bg-[#D44960] border-2 border-[#82DAFF] hover:border-[#015A80] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center">
+                    <a href="https://github.com/team-eats/team-eats">GitHub Repo</a></button>
+            </div>
         </div>
-        <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        <div class="max-w-md bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700">
+            <img class="" src="/images/pwp.jpg" alt="A screenshot of evanbolton.io"/>
+            <div class="p-5">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">evanbolton.io</h5>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"><span class="font-bold">Skills:</span> HTML, JavaScript, Tailwind</p>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">This website was my personal project for my Deep Dive Coding bootcamp. It provided an excellent learning experience and taught me a lot of basics about web development. I'm excited to add more functionality and projects to this page as I progress in my career.</p>
+                <button class="w-32 text-[#82DAFF] hover:text-[#015A80] bg-[#7F0116] hover:bg-[#D44960] border-2 border-[#82DAFF] hover:border-[#015A80] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center">
+                    <a href="https://github.com/evanfbolton/evanfbolton-portfolio">GitHub Repo</a></button>
+            </div>
         </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-        </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-        </div>
-        <!-- Item 5 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        <div class="max-w-md bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700">
+            <img class="" src="/images/cosmere.jpg" alt="A photo of the copper mind symbol from Mistborn"/>
+            <div class="p-5">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cosmere Ipsum</h5>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"><span class="font-bold">Skills:</span> HTML, JavaScript, Tailwind</p>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">In recent years, I've become a big fan of Brandon Sanderson. Early in my Deep Dive Coding experience, we were talking about ipsum generators. One of my cohorts suggested we code up our own ipsum generators. Thus, Cosmere Ipsum was born. Check out the progress on my GitHub.</p>
+                <button class="w-32 text-[#82DAFF] hover:text-[#015A80] bg-[#7F0116] hover:bg-[#D44960] border-2 border-[#82DAFF] hover:border-[#015A80] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center">
+                    <a href="https://github.com/evanfbolton/cosmere-ipsum">GitHub Repo</a></button>
+            </div>
         </div>
     </div>
-    <div class="flex justify-center items-center pt-4">
-        <button type="button" class="flex justify-center items-center me-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
-            <span class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
-                <svg class="rtl:rotate-180 w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/>
-                </svg>
-                <span class="sr-only">Previous</span>
-            </span>
-        </button>
-        <button type="button" class="flex justify-center items-center h-full cursor-pointer group focus:outline-none" data-carousel-next>
-            <span class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
-                <svg class="rtl:rotate-180 w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-                <span class="sr-only">Next</span>
-            </span>
-        </button>
-    </div>
+
 </section>
 <!--PORTFOLIO SECTION END-->
 
 
 <!--CONTACT FORM START-->
-<section class="grid grid-cols-1 mt-16 border border-gray-200 rounded-lg shadow-sm md:mb-12 md:grid-cols-3 bg-white">
+<section class="grid grid-cols-1 mt-16 border border-gray-200 rounded-lg shadow-sm md:grid-cols-3 bg-white">
     <form class="flex flex-col col-span-2 justify-center px-8 md:px-16 py-16 md:ml-[5%] text-left bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
         <h2 class="mb-6 text-4xl font-semibold text-gray-900">Contact Me</h2>
         <p class="mb-6 w-full md:w-5/6">I'm open to inquiries for employment opportunities or contract work. If you'd rather connect with me through LinkedIn or e-mail, those links can be found to the right of this form. Looking forward to hearing from you!</p>
