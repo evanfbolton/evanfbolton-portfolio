@@ -25,4 +25,4 @@ jobs:
       - name: Deploy to server
         run: |
           ssh-keyscan -H evanbolton.io >> ~/.ssh/known_hosts 
-          scp -r ./dist/* gkephart@evanbolton.io:/var/www/evanbolton.io/html
+          scp -r ./dist/* efbolton@evanbolton.io:/var/www/evanbolton.io/html
